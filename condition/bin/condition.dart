@@ -1,5 +1,5 @@
-void main(List<String> arguments) {
-  var angka = int.parse(arguments[0]);
+void main(List<String> args) {
+  var angka = int.parse(args[0]);
 
   if (angka > 0) {
     print('Angka Positif');
